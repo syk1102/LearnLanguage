@@ -1,0 +1,39 @@
+program
+var | function | begin
+begin | function
+id
+, | epsilon
+var
+var | epsilon
+int| real | array
+int | real
+function
+function | epsilon
+function
+var | function | begin
+function | begin
+function
+( | :
+(
+id
+; | epsilon
+begin
+id | begin | if | while | end
+id | begin | if | while
+id | begin | if | while
+; | epsilon
+id | begin | if | while
+else | epsilon
+id
+[ | epsilon
+id | num | ( | not | + | -
+, | epsilon
+id | num | ( | not | + | -
+relop | epsilon
+id | num | ( | not | + | -
+addop | epsilon
+id | num | ( | not
+mulop | epsilon
+id|num|(|not
+( | [ | epsilon
++|-

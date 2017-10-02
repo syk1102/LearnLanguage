@@ -1,0 +1,8 @@
+1     3.14E+                                                                
+2     3.4E+2                                                                
+3     3E4.2+                                                                
+4     34E.2+                                                                
+5     $@                                                                    
+LEXERR:    Unrecognized Symbol:           $              
+LEXERR:    Unrecognized Symbol:           @              
+6     eof                                                                   

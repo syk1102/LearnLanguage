@@ -1,0 +1,21 @@
+Line No.   Lexeme          Token-Type      Attribute           
+1          3.14            REAL            33.14               
+1          E               ID              39462592            
+1          +               ADDOP           0                   
+2          3.4             REAL            33.4                
+2          E               ID              39462592            
+2          +               ADDOP           0                   
+2          2               INT             2                   
+3          3               INT             3                   
+3          E4              ID              40307048            
+3          .               DOT             0                   
+3          2               INT             2                   
+3          +               ADDOP           0                   
+4          34              INT             34                  
+4          E               ID              39462592            
+4          .               DOT             0                   
+4          2               INT             2                   
+4          +               ADDOP           0                   
+5          $               LEXERR          Unrecognized Symbol 
+5          @               LEXERR          Unrecognized Symbol 
+6          eof             EOF             0                   

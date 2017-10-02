@@ -1,0 +1,39 @@
+$
+$
+$
+)
+)
+begin | function
+begin | function
+; | )
+; | )
+begin
+begin
+;
+;
+;
+var | function | begin
+var | function | begin
+:
+)
+)
+; | . | end | else
+; | . | end | else
+end
+end
+end
+; | end | else
+; | end | else
+assignop
+assignop
+)
+)
+] | do | then | ) | ; | end | else | ,
+] | do | then | ) | ; | end | else | ,
+relop | ] | do | then | ) | ; | end | else | ,
+relop | ] | do | then | ) | ; | end | else | ,
+addop | relop | ] | do | then | ) | ; | end | else | ,
+addop | relop | ] | do | then | ) | ; | end | else | ,
+mulop | addop | relop | ] | do | then | ) | ; | end | else | ,
+mulop | addop | relop | ] | do | then | ) | ; | end | else | ,
+id | num | ( | not
