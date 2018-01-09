@@ -1,0 +1,41 @@
+program
+var | procedure | begin
+procedure | begin
+id
+, | epsilon
+var
+var | epsilon
+integer | real | array
+integer | real
+procedure
+procedure | epsilon
+procedure
+var | procedure | begin
+procedure | begin
+procedure
+( | :
+(
+id
+; | epsilon
+begin
+id | call | begin | if | while | end
+id | call | begin | if | while
+id | call | begin | if | while
+; | epsilon
+id | call | begin | if | while
+else | epsilon
+id
+[ | epsilon
+call
+( | epsilon
+id | num | ( | not | + | -
+, | epsilon
+id | num | ( | not | + | -
+relop | epsilon
+id | num | ( | not | + | -
+addop | epsilon
+id | num | ( | not
+mulop | epsilon
+id | num | ( | not
+[ | epsilon
++ | -
