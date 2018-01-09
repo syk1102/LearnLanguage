@@ -1,21 +1,70 @@
 Line No.   Lexeme          Token-Type      Attribute           
-1          3.14            REAL            33.14               
-1          E               ID              39462592            
-1          +               ADDOP           0                   
-2          3.4             REAL            33.4                
-2          E               ID              39462592            
-2          +               ADDOP           0                   
-2          2               INT             2                   
-3          3               INT             3                   
-3          E4              ID              40307048            
-3          .               DOT             0                   
-3          2               INT             2                   
-3          +               ADDOP           0                   
-4          34              INT             34                  
-4          E               ID              39462592            
-4          .               DOT             0                   
-4          2               INT             2                   
-4          +               ADDOP           0                   
-5          $               LEXERR          Unrecognized Symbol 
-5          @               LEXERR          Unrecognized Symbol 
-6          eof             EOF             0                   
+1          <               RELOP           53                 
+1          <>              RELOP           51                 
+1          <=              RELOP           52                 
+1          >               RELOP           55                 
+1          >=              RELOP           54                 
+1          =               RELOP           50                 
+2          test            ID              4476256976          
+2          the             ID              4476302040          
+2          id              ID              4476302080          
+2          longid123abc    LEXERR          ID too long         
+3          test            ID              4476256976          
+3          <               RELOP           53                 
+3          id              ID              4476302080          
+3          no              ID              4476302120          
+3          test            ID              4476256976          
+4          0               INT             0                   
+4          0.0             REAL            0.0                 
+4          1000000000      INT             1000000000          
+4          123123123123    LEXERR          INT too long        
+4          0000000001      LEXERR          INT has leading zeros
+4          000000000123    LEXERR          INT has leading zeros
+4          000000000123    LEXERR          INT too long        
+5          12345.12345     REAL            112345.12345        
+5          0.12345         REAL            0.12345             
+5          0.12340         LEXERR          REAL has trailing zeros
+5          0.12300         LEXERR          REAL has trailing zeros
+5          0.123000        LEXERR          REAL has too long decimals
+5          0.123000        LEXERR          REAL has trailing zeros
+6          12345.12345E12  LONGREAL        4.04250633918e+60   
+6          0.12345E12      LONGREAL        1.25283284683e-11   
+6          0.12340E12      LEXERR          LONGREAL has trailing zeros
+6          0.12300E12      LEXERR          LONGREAL has trailing zeros
+6          0.123000E12     LEXERR          LONGREAL yy too long
+6          0.123000E12     LEXERR          LONGREAL has trailing zeros
+6          0.0001E123      LEXERR          LONGREAL zz too long
+7          =               RELOP           50                 
+7          1               INT             1                   
+7          order           ID              4476257696          
+7          or              ADDOP           32                 
+7          *               MULOP           40                 
+7          /               MULOP           41                 
+7          div             MULOP           42                 
+7          mod             MULOP           43                 
+7          and             MULOP           44                 
+7          divide          ID              4476257840          
+7          module          ID              4476257936          
+7          land            ID              4476257888          
+7          and             MULOP           44                 
+8          do              KEYWORD         16                 
+8          not             KEYWORD         17                 
+8          procedure       KEYWORD         11                 
+8          if              KEYWORD         12                 
+8          else            KEYWORD         14                 
+8          then            KEYWORD         13                 
+8          while           KEYWORD         15                 
+9          (               OPENPAREN       61                  
+9          )               CLOSEDPAREN     62                  
+9          ;               SEMICOLON       63                  
+9          ,               COMMA           64                  
+9          .               DOT             67                  
+9          ..              DOUBLEDOT       68                  
+9          :               COLON           69                  
+9          :=              ASSIGNOP        60                  
+10         #               LEXERR          Unrecognized Symbol 
+10         %               LEXERR          Unrecognized Symbol 
+10         &               LEXERR          Unrecognized Symbol 
+10         $               LEXERR          Unrecognized Symbol 
+10         !               LEXERR          Unrecognized Symbol 
+11         $               EOF             0                   

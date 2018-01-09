@@ -15,8 +15,4 @@ else 14
 while 15
 do 16
 not 17
-and 18
-or 19
-div 20
-mod 21
-call 22
+call 18
