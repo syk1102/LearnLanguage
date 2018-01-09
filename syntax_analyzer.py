@@ -167,7 +167,8 @@ class SyntaxAnalyzer:
         # sync token
         sync_set = self.parse_table[ind]['follows']
         sync_set.append('$')
-        if self.tok not in sync_set:
+        if self.tok not in sync_set: # TODO: need to ascertain that syncing is
+        # done in both match error as well as pass in grammar
             while self.tok not in sync_set:
                 self.get_token()
             self.index -= 1
@@ -220,9 +221,8 @@ class SyntaxAnalyzer:
                 # not expecting EOF is obvious if inside this clause
                 self.get_token()
                 return print '---Getting next token---'
-
-            self.syntax_error('match_err', False, err_msg)
-            self.get_token()
+            self.syntax_error('match_err', False, symbols_expected)
+            # getting next token happens in syntax_error where syncing is done
 
     def program(self):
         # 1.1.1
